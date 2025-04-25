@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">BookStore</string>
+    <string name="op_inicio_V">Inicio</string>
+    <string name="op_mi_tienda_V">Mi Tienda</string>
+    <string name="op_resenia_V">Reseñas</string>
+    <string name="op_cerrar_sesion_V">Cerrar sesión</string>
+
+    <string name="op_mis_productos_V">Mis productos</string>
+    <string name="op_mis_ordenes_V">Órdenes</string>
+</resources>

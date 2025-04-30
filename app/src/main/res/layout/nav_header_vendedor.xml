@@ -7,7 +7,15 @@
     android:paddingStart="15dp"
     android:paddingEnd="15dp"
     android:paddingBottom="15dp"
-    android:paddingTop="15dp">
+    android:paddingTop="15dp"
+    android:background="@color/celeste_claro">
+    
+    <TextView
+        android:textStyle="bold"
+        android:textSize="18sp"
+        android:text="@string/txt_bienvenida"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
 
 
 </androidx.appcompat.widget.LinearLayoutCompat>

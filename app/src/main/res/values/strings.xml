@@ -1,5 +1,9 @@
 <resources>
     <string name="app_name">BookStore</string>
+
+    <string name="open_drawer">Open drawer</string>
+    <string name="close_drawer">Close drawer</string>
+
     <string name="op_inicio_V">Inicio</string>
     <string name="op_mi_tienda_V">Mi Tienda</string>
     <string name="op_resenia_V">Reseñas</string>
@@ -11,4 +15,5 @@
     <string name="txt_bienvenida">Bienvenido(a)</string>
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="todo">TODO</string>
 </resources>

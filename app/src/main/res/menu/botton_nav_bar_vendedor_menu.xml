@@ -17,7 +17,7 @@
 
     <!--Órdenes de los clientes-->
     <item
-        android:id="@+id/op_mis_ordenes"
+        android:id="@+id/op_mis_ordenes_V"
         android:title="@string/op_mis_ordenes_V"
         android:icon="@drawable/ico_ordenes"
         />

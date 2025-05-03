@@ -3,13 +3,10 @@ package com.example.bookstore.Vendedor
 import android.os.Bundle
 import android.view.MenuItem
 import android.widget.Toast
-import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.ActionBarDrawerToggle
 import androidx.appcompat.app.AppCompatActivity
 import androidx.appcompat.widget.Toolbar
 import androidx.core.view.GravityCompat
-import androidx.core.view.ViewCompat
-import androidx.core.view.WindowInsetsCompat
 import androidx.fragment.app.Fragment
 import com.example.bookstore.R
 import com.example.bookstore.Vendedor.Bottom_Nav_Fragments_Vendedor.FragmentMisProductosV
@@ -46,7 +43,7 @@ class MainActivityVendedor : AppCompatActivity() , NavigationView.OnNavigationIt
         toggle.syncState()
 
         replaceFragment(FragmentInicioV())
-        binding.navigationView.setCheckedItem(R.id.op_inicio_v)
+        binding.navigationView.setCheckedItem(R.id.op_inicio_V)
 
     }
 
@@ -61,13 +58,13 @@ class MainActivityVendedor : AppCompatActivity() , NavigationView.OnNavigationIt
 
     override fun onNavigationItemSelected(item: MenuItem): Boolean {
         when (item.itemId){
-            R.id.op_inicio_v->{
+            R.id.op_inicio_V->{
                 replaceFragment(FragmentInicioV())
             }
             R.id.op_mi_tienda_V->{
                 replaceFragment(FragmentMiTiendaV())
             }
-            R.id.op_resenia_v->{
+            R.id.op_resenia_V->{
                 replaceFragment(FragmentReseniasV())
             }
             R.id.op_cerrar_sesion_V->{
@@ -76,7 +73,7 @@ class MainActivityVendedor : AppCompatActivity() , NavigationView.OnNavigationIt
             R.id.op_mis_productos_V->{
                 replaceFragment(FragmentMisProductosV())
             }
-            R.id.op_mis_ordenes->{
+            R.id.op_mis_ordenes_V->{
                 replaceFragment(FragmentOrdenesV())
             }
         }

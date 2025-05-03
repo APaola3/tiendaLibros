@@ -9,7 +9,7 @@
 
         <!--Inicio-->
         <item
-            android:id="@+id/op_grupo_op"
+            android:id="@+id/op_inicio_V"
             android:title="@string/op_inicio_V"
             android:icon="@drawable/ico_inicio"/>
 
@@ -21,7 +21,7 @@
 
         <!--Reseñas-->
         <item
-            android:id="@+id/op_resenia"
+            android:id="@+id/op_resenia_V"
             android:title="@string/op_resenia_V"
             android:icon="@drawable/ico_resenias"/>
 

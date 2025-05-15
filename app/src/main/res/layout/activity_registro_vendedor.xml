@@ -67,7 +67,7 @@
             app:passwordToggleEnabled="true">
 
             <EditText
-                android:id="@+id/etPassword"
+                android:id="@+id/etPasswordV"
                 android:hint="@string/etPassword"
                 android:drawableStart="@drawable/ico_password"
                 android:drawablePadding="5dp"
@@ -83,7 +83,7 @@
             app:passwordToggleEnabled="true">
 
             <EditText
-                android:id="@+id/etCPassword"
+                android:id="@+id/etCPasswordV"
                 android:hint="@string/etCPassword"
                 android:drawableStart="@drawable/ico_password"
                 android:drawablePadding="5dp"

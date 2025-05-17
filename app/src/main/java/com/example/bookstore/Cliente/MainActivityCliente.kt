@@ -40,7 +40,7 @@ class MainActivityCliente : AppCompatActivity(),NavigationView.OnNavigationItemS
     }
 
     private fun replaceFragment(fragment: Fragment) {
-        h
+        
     }
 
     override fun onNavigationItemSelected(item: MenuItem): Boolean {

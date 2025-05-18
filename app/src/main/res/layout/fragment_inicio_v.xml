@@ -36,10 +36,9 @@
 
     <com.google.android.material.floatingactionbutton.FloatingActionButton
         android:id="@+id/addFab"
-        android:backgroundTint="@color/celeste_claro"
+        android:backgroundTint="@color/celeste_oscuro"
         android:contentDescription="@string/todo"
         android:src="@drawable/ico_agregar"
-        android:tint="@android:color/white"
         android:layout_marginBottom="30dp"
         app:layout_anchor="@id/bottomAppBar"
         android:layout_width="wrap_content"

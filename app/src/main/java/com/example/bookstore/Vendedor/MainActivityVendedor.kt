@@ -13,6 +13,7 @@ import com.example.bookstore.R
 import com.example.bookstore.SeleccionarTipoActivity
 import com.example.bookstore.Vendedor.Bottom_Nav_Fragments_Vendedor.FragmentMisProductosV
 import com.example.bookstore.Vendedor.Bottom_Nav_Fragments_Vendedor.FragmentOrdenesV
+import com.example.bookstore.Vendedor.Nav_Fragments_Vendedor.FragmentCategoriasV
 import com.example.bookstore.Vendedor.Nav_Fragments_Vendedor.FragmentInicioV
 import com.example.bookstore.Vendedor.Nav_Fragments_Vendedor.FragmentMiTiendaV
 import com.example.bookstore.Vendedor.Nav_Fragments_Vendedor.FragmentReseniasV
@@ -85,6 +86,9 @@ class MainActivityVendedor : AppCompatActivity() , NavigationView.OnNavigationIt
             }
             R.id.op_mi_tienda_V->{
                 replaceFragment(FragmentMiTiendaV())
+            }
+            R.id.op_categorias_v->{
+                replaceFragment(FragmentCategoriasV())
             }
             R.id.op_resenia_V->{
                 replaceFragment(FragmentReseniasV())

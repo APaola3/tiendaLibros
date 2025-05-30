@@ -68,6 +68,9 @@
     <string name="etCategoria">Ingrese categoría</string>
     <string name="btnAgregarCat">Agregar categoria</string>
 
+    <!--Item categoría - v-->
+    <string name="item_nombre_c_v">Nombre de categoría</string>
+
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="todo">TODO</string>

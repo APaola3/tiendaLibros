@@ -12,6 +12,14 @@
         android:layout_marginTop="15dp"
         android:orientation="vertical">
 
+        <androidx.appcompat.widget.AppCompatImageView
+            android:id="@+id/imgCategorias"
+            android:src="@drawable/categorias"
+            android:layout_gravity="center"
+            android:layout_marginBottom="15dp"
+            android:layout_width="100dp"
+            android:layout_height="100dp"/>
+
         <!--Nombre de la categoría -->
         <com.google.android.material.textfield.TextInputLayout
             android:layout_width="match_parent"
@@ -40,6 +48,17 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"/>
 
+        <!--Lista de categorías-->
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/rvCategorias"
+            android:layout_margin="5dp"
+            tools:listitem="@layout/item_categoria_v"
+            app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
+
+
     </androidx.appcompat.widget.LinearLayoutCompat>
+
 
 </RelativeLayout>
